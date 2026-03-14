@@ -10,7 +10,7 @@
 
       .st1 {
         fill: #fffaf2;
-        font-family: SegoeUI-Bold, 'Segoe UI';
+        font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
         font-size: 96px;
         font-weight: 700;
         letter-spacing: -.07em;
@@ -27,7 +27,7 @@
       }
 
       .st2, .st3 {
-        font-family: HelveticaNeueLTPro-Md, 'Helvetica Neue LT Pro';
+        font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
         font-weight: 500;
       }
 
