@@ -60,7 +60,7 @@ Replace each block with an image element if you want real media:
 
 ### Featured project art
 
-The featured project section uses a placeholder panel with the text `Replace with screenshot, trailer still, or cover image.`
+The featured project section uses a placeholder panel with the text `Replace with a screenshot, trailer still, poster image, or cinematic crop.`
 
 You can swap the `.project-surface` block for:
 
@@ -72,9 +72,9 @@ You can swap the `.project-surface` block for:
 
 Open `index.html` and update the placeholder `href` values:
 
-- Discord invite: `https://discord.gg/your-invite`
-- Social links in the footer: currently `#`
-- Devlog / idea / signup / bug report links: currently `#`
+- Discord invite: `https://discord.gg/qrg4fF2F`
+- Social links in the footer: currently routed through `https://sorrygames.com/...`
+- Project / devlog / roadmap / feedback / playtest / bug links: currently routed through `https://sorrygames.com/...`
 - Contact email: `mailto:hello@sorrygames.com`
 
 ## How to change colors and spacing
@@ -83,11 +83,11 @@ Open `styles.css` and edit the CSS variables in the `:root` block near the top.
 
 Useful variables:
 
-- `--bg`, `--bg-elevated`, `--bg-soft`
-- `--text`, `--text-muted`
-- `--accent`
+- `--bg`, `--bg-deep`, `--bg-soft`
+- `--text`, `--text-strong`, `--text-muted`
+- `--line`, `--line-strong`
 - `--radius`
-- `--space-1` through `--space-8`
+- `--space-1` through `--space-9`
 
 ## How to deploy to Cloudflare Pages
 
