@@ -906,6 +906,10 @@ img.shot-block {
     gap: clamp(3rem, 4.5vw, 4.75rem);
   }
 
+  .hero-aside {
+    transform: translate(-0.95rem, -0.65rem);
+  }
+
   .hero-copy {
     max-width: 31.5rem;
   }
